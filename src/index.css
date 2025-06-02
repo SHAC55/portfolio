@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #141414;
+    color: white;
+    /* padding: 30px; */
+    min-width: 450px;
+    
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.custom-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.custom-scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* @media (max-width: 564px) {
+  body {
+    margin-left: 10px;
+    padding: 13px;
+  }
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
